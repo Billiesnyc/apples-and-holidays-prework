@@ -46,6 +46,9 @@ holiday_hash.each do |season, value|
   season.each do |name, decoration|
     decoration.each do |decoration|
       puts "#{decoration}"
+    end
+  end
+end
 end
 
 def all_holidays_with_bbq(holiday_hash)
