@@ -44,6 +44,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 holiday_hash.each do |season, data|
   data.each do |key, value|
+    puts "#{key}"
     value.each do |decoration|
       puts "#{decoration}"
     end
