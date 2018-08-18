@@ -43,8 +43,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 holiday_hash.each do |season, value|
-  season.each do |name, decoration|
-    decoration.each do |decoration|
+  season.each do |name, value|
+    value.each do |decoration|
       puts "#{decoration}"
     end
   end
